@@ -62,11 +62,12 @@ img {
   /* ------BTN------ */
   --pr-hover-color: rgba(252, 241, 224, 1);
   --sec-hover-color: rgba(30, 24, 35, 1);
-  
-  --pr-modal-color:rgba(64, 64, 64, 0.3);
-  --bg-price-color:#FAFAFA;
-  --bg-circle-color:rgba(17, 17, 17, 0.1);
 
+  --pr-modal-color: rgba(64, 64, 64, 0.3);
+  --bg-price-color: #fafafa;
+  --bg-circle-color: rgba(17, 17, 17, 0.1);
+
+  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -102,28 +103,26 @@ body {
 }
 
 .container {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 @media screen and (min-width: 375px) {
-	.container {
-		max-width: 375px;
-	}
+  .container {
+    max-width: 375px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-	.container {
-		max-width: 768px;
+  .container {
+    max-width: 768px;
     padding: 0 32px;
-	}
+  }
 }
 
 @media screen and (min-width: 1200px) {
-	.container {
-		max-width: 1200px;
-	}
+  .container {
+    max-width: 1200px;
+  }
 }
-
-
