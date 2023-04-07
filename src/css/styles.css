@@ -24,10 +24,10 @@
 /* @import url('./'); */
 
 /* <!---- Our products  -----> */
-@import url('./');
+/* @import url('./'); */
 
 /* <!---- Top sellers  -----> */
-/* @import url('./'); */
+@import url('./top-sellers');
 
 /* <!---- Reviews  -----> */
 /* @import url('./'); */
@@ -47,5 +47,3 @@
 
 /* <!---- Explore our new chocolate first ----> */
 /* @import url('./'); */
-
-
