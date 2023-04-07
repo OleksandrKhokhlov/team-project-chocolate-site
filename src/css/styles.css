@@ -4,22 +4,48 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+/* <!------- Reset -------> */
+@import url('./basic-styles.css');
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+/* <!----- Header  ------> */
+/* @import url('./'); */
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+/* <!------- Hero  -------> */
+/* @import url('./'); */
+
+/* <!---- Advantages  ----> */
+/* @import url('./'); */
+
+/* <!-- Unique components  --> */
+/* @import url('./'); */
+
+/* <!---- How its made?  -----> */
+/* @import url('./'); */
+
+/* <!---- Our products  -----> */
+/* @import url('./'); */
+
+/* <!---- Top sellers  -----> */
+@import url('./top-sellers.css');
+
+/* <!---- Reviews  -----> */
+/* @import url('./'); */
+
+/* <!---- Subscribe -----> */
+/* @import url('./'); */
+
+/* <!---- Footer -----> */
+/* @import url('./'); */
+
+/* <!------- Modal --------> */
+/* <!------- Buy now ------> */
+/* @import url('./'); */
+
+/* <!---- Leave a review about our chocolate ----> */
+/* @import url('./'); */
+
+/* <!---- Explore our new chocolate first ----> */
+/* @import url('./'); */
+
+
