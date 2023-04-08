@@ -9,7 +9,7 @@
 @import url('./basic-styles.css');
 
 /* <!----- Header  ------> */
-/* @import url('./'); */
+@import url('./header.css');
 
 /* <!------- Hero  -------> */
 /* @import url('./'); */
@@ -27,7 +27,7 @@
 /* @import url('./'); */
 
 /* <!---- Top sellers  -----> */
-@import url('./top-sellers');
+/* @import url('./top-sellers'); */
 
 /* <!---- Reviews  -----> */
 /* @import url('./'); */
