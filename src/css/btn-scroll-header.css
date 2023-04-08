@@ -1,0 +1,43 @@
+/* ----------Скрол сторінки -------- */
+
+@media screen and (max-width: 1199px) {
+	.btn-up {
+		position: fixed;
+		right: 14px;
+		bottom: 20px;
+		z-index: 100;
+
+		background-color: transparent;
+		border: none;
+		outline: none;
+
+		cursor: pointer;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		transition: opacity 0.3s ease-in-out;
+		color:  var(--accent-color);
+
+		opacity: 0.4;
+	}
+
+	.btn-up-icon {
+		fill: currentColor;
+	}
+
+	.btn-up_hide {
+		display: none;
+	}
+
+	.btn-up_hiding {
+		opacity: 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.btn-up {
+		display: none;
+	}
+}
