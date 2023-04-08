@@ -1,0 +1,59 @@
+.subsribe-section {
+    padding-bottom: 72px;
+    max-width: 1200px;
+    max-height: 370px;
+    background-image: url(../img/subscribe/subcribe_desk_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subscribe-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 72px;
+    padding-bottom: 24px;
+    width: 378px;
+    margin: 0 auto;
+}
+
+.text-subscribe {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    width: 467px;
+    margin: 0 auto;
+}
+
+.subscribe-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #FD9222;
+    border-radius: 100px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+    background: #FCF1E0;
+    color: #FD9222;
+}
