@@ -92,12 +92,20 @@
 }
 
 @media screen and (min-width: 768px) {
+  .title{
+    margin-bottom: 50px;
+  }
+
   .our-products {
     padding: calc(100px / 2) 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .title{
+    margin-bottom: 50px;
+  }
+
   .our-products {
     padding: calc(128px / 2) 0;
   }
