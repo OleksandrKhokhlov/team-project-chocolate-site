@@ -1,0 +1,214 @@
+/* .header--fixed {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+ } */
+.logo-header {
+  display: flex;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--sec-title-color);
+}
+.logo-simply {
+  font-style: italic;
+}
+.header-desktop {
+  display: none;
+}
+
+.header-sup {
+  padding-top: 25px;
+  padding-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chocolate {
+  margin-left: 6px;
+}
+.hamburger-link:hover {
+  color: var(--accent-color);
+}
+.hamburger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  padding-right: 46px;
+  padding-left: 50px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  z-index: 2;
+  background: #1e1823;
+  transform: translate(100%);
+  transition: transform 500ms ease-in-out;
+}
+
+.hamburger-menu.is-open {
+  transform: translate(0%);
+}
+.open-hamburger .hamburger-menu {
+  color: var(--pr-title-color);
+}
+
+.open-hamburger {
+  display: block;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.modal-button {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  height: 28px;
+  width: 28px;
+  transition: background-color var(--transition-dur-and-func);
+  cursor: pointer;
+  border: var(--pr-title-color);
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.icon-close {
+  width: 23px;
+  height: 23px;
+  stroke: var(--pr-title-color);
+}
+
+.header-nav {
+  padding-top: 136px;
+}
+.list-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+.item-nav {
+  color: var(--pr-title-color);
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  transition: color var(--transition-dur-and-func);
+}
+.down-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.item-nav:hover,
+.item-nav:focus {
+  color:  var(--accent-color);
+}
+.hamburger-social-list {
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  display: flex;
+  gap: 18px;
+}
+.hamburger-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hamburger-icon {
+  fill: transparent;
+  stroke: var(--sec-text-color);
+}
+.hamburger-icon-instagram {
+  stroke: var(--sec-text-color);
+  fill: transparent;
+}
+.hamburger-link .hamburger-icon {
+  transition: stroke var(--transition-dur-and-func);
+}
+.hamburger-link .hamburger-icon-instagram {
+  transition: stroke var(--transition-dur-and-func);
+}
+.hamburger-link .hamburger-icon:hover {
+  stroke: var(--accent-color);
+}
+.hamburger-link .hamburger-icon-instagram:hover {
+  stroke: var(--accent-color);
+}
+
+/**************TABLET HEADER******************/
+@media screen and (min-width: 768px) {
+  .hamburger-menu {
+    padding-right: 81px;
+    padding-left: 85px;
+  }
+}
+/********************************************/
+
+/********************DESKTOP HEADER************************/
+@media screen and (min-width: 1200px) {
+  .header-mobile {
+    display: none;
+  }
+  .logo-header {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .header-desktop {
+    padding-top: 28px;
+    padding-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  .list-header {
+    flex-direction: row;
+  }
+  .item-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--sec-title-color);
+  }
+
+  .hamburger-icon-instagram {
+    fill: none;
+    stroke: var(--sec-title-color);
+  }
+  .hamburger-icon {
+    fill: none;
+    stroke: var(--sec-title-color);
+    display: block;
+  }
+  .chocolate {
+    width: 24px;
+    height: 24px;
+  }
+  .hamburger-link .hamburger-icon {
+    transition: stroke var(--transition-dur-and-func);
+  }
+  .hamburger-link .hamburger-icon-instagram {
+    transition: stroke var(--transition-dur-and-func);
+  }
+  .hamburger-link .hamburger-icon:hover {
+    stroke:var(--accent-color);
+  }
+  .hamburger-link .hamburger-icon:focus {
+    stroke: var(--accent-color);
+  }
+  .hamburger-link .hamburger-icon-instagram:hover {
+    stroke: var(--accent-color);
+  }
+  .hamburger-link .hamburger-icon-instagram:focus {
+    stroke: var(--accent-color);
+  }
+}
