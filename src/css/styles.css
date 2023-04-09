@@ -24,10 +24,11 @@
 /* @import url('./'); */
 
 /* <!---- Our products  -----> */
-/* @import url('./'); */
+ @import url('./our-products.css');
 
 /* <!---- Top sellers  -----> */
-/* @import url('./top-sellers'); */
+
+@import url('./top-sellers.css');
 
 /* <!---- Reviews  -----> */
 /* @import url('./'); */
@@ -47,3 +48,6 @@
 
 /* <!---- Explore our new chocolate first ----> */
 /* @import url('./'); */
+
+/* ----- btn-scroll-header ------ */
+@import url('./btn-scroll-header.css');
