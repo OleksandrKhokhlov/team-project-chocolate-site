@@ -6,10 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding: 32px 20px;
 }
 
 .footer-logo-section {
@@ -110,10 +107,7 @@
 @media screen and (min-width: 768px) {
     .footer-container{
         max-width: 768px;   
-        padding-top: 50px; 
-        padding-bottom: 50px;
-        padding-left: 32px;
-        padding-right: 32px;
+        padding: 50px 32px;
     }  
 
     .footer-logo-section {
