@@ -1,85 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!---------- Favicon --------->
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chocolate site Team project</title>
+    <!----------- Fonts ---------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!--------- Normalize -------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <!--------- SWIPER.JS STYLES -------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!------------ CSS ----------->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!------------ Header ----------->
+    <load src="./partials/header.html" />
 
-<head>
-  <meta charset="UTF-8" />
-  <!---------- Favicon --------->
-  <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chocolate site Team project</title>
-  <!----------- Fonts ---------->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
-    rel="stylesheet" />
-  <!--------- swiper -------->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <!--------- Normalize -------->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-  <!------------ CSS ----------->
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
+    <!------------ Main ------------->
+    <main>
+      <!------------ Hero ----------->
+      <!-- <load src="partials/" /> -->
 
-<body>
-  <!------------ Header ----------->
-  <!-- <load src="partials/" /> -->
+      <!------ Advantages ---------->
+      <!-- <load src="partials/" /> -->
 
-  <!------------ Main ------------->
-  <main>
-    <!------------ Hero ----------->
+      <!----- Unique components ---->
+      <!-- <load src="partials/" /> -->
+
+      <!------ How its made? ------->
+      <!-- <load src="partials/" /> -->
+
+      <!-------- Our products ------>
+      <load src="./partials/our-products-section.html" />
+
+      <!-------- Top sellers ------->
+      <load src="partials/top-sellers.html" />
+
+      <!---------- Reviews --------->
+      <!-- <load src="partials/" /> -->
+
+      <!---------- Subscribe ------->
+      <!-- <load src="partials/" /> -->
+    </main>
+
+    <!------------ Footer ---------->
     <!-- <load src="partials/" /> -->
 
-    <!------ Advantages ---------->
+    <!------------ Modal ----------->
+
+    <!------------ Buy now --------->
     <!-- <load src="partials/" /> -->
 
-    <!----- Unique components ---->
+    <!---- Leave a review about our chocolate ---->
     <!-- <load src="partials/" /> -->
 
-    <!------ How its made? ------->
+    <!----- Explore our new chocolate first ------>
     <!-- <load src="partials/" /> -->
 
-    <!-------- Our products ------>
-    <!-- <load src="partials/" /> -->
+    <!----- Btn-scroll-header ------>
+    <load src="partials/btn-scroll-header.html" />
 
-    <!-------- Top sellers ------->
-    <load src="partials/top-sellers.html" />
+    <!------------ JS ----------->
+    
+    
+    <!------- hamburger-menu -------->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/hamburger.js"></script>
 
-    <!---------- Reviews --------->
-    <load src="partials/reviews.html" />
+    <!----- btn-scroll-header ------>
+    <script type="module" src="./js/btn-scroll-header.js"></script>
 
-    <!---------- Subscribe ------->
-    <!-- <load src="partials/" /> -->
-  </main>
+    <!--------- OUR-PRODUCTS-SLIDER -------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/our-products-slider.js"></script>
 
-  <!------------ Footer ---------->
-  <!-- <load src="partials/" /> -->
-
-  <!------------ Modal ----------->
-
-  <!------------ Buy now --------->
-  <!-- <load src="partials/" /> -->
-
-  <!---- Leave a review about our chocolate ---->
-  <!-- <load src="partials/" /> -->
-
-  <!----- Explore our new chocolate first ------>
-  <!-- <load src="partials/" /> -->
-
-  <!----- btn-scroll-header ------>
-  <load src="partials/btn-scroll-header.html" />
-
-  <!------------ JS ----------->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <!----- btn-scroll-header ------>
-  <script type="module" src="./js/btn-scroll-header.js"></script>
-  <!----- heder-fixed-scrol ------>
-  <script type="module" src="./js/heder-fixed-scrol.js"></script>
-  <!------- modal-form ------->
-  <script type="module" src="./js/modal-form.js"></script>
-  <!------- reviews-swiper ------->
-  <script src="./js/swiper-reviews.js"></script>
-</body>
-
+    <!----- Heder-fixed-scrol ------>
+    <script type="module" src="./js/heder-fixed-scrol.js"></script>
+    <!------- Modal-form ------->
+    <script type="module" src="./js/modal-form.js"></script>
+  </body>
 </html>
