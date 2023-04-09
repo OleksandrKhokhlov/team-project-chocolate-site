@@ -44,7 +44,7 @@ button {
   cursor: pointer;
 }
 .hero-buttons {
-  gap: 10px;
+  gap: 9px;
   display: flex;
   padding-bottom: 32px;
 }
