@@ -22,7 +22,7 @@
   margin-left: 6px;
 }
 .hamburger-link:hover {
-  color: #fd9222;
+  color: var(--accent-color);
 }
 .hamburger-menu {
   position: fixed;
@@ -61,7 +61,7 @@
   right: 25px;
   height: 28px;
   width: 28px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--transition-dur-and-func);
   cursor: pointer;
   border: white;
   padding: 0;
@@ -90,7 +90,7 @@
   display: flex;
   align-items: center;
   letter-spacing: -0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--transition-dur-and-func);
 }
 .down-content {
   position: absolute;
@@ -99,7 +99,7 @@
 }
 .item-nav:hover,
 .item-nav:focus {
-  color: #fd9222;
+  color:  var(--accent-color);
 }
 .hamburger-social-list {
   margin: 0;
@@ -115,23 +115,23 @@
 }
 .hamburger-icon {
   fill: transparent;
-  stroke: #ffffff;
+  stroke: var(--sec-text-color);
 }
 .hamburger-icon-instagram {
   stroke: #ffffff;
   fill: transparent;
 }
 .hamburger-link .hamburger-icon {
-  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke var(--transition-dur-and-func);
 }
 .hamburger-link .hamburger-icon-instagram {
-  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke var(--transition-dur-and-func);
 }
 .hamburger-link .hamburger-icon:hover {
-  stroke: #fd9222;
+  stroke: var(--accent-color);
 }
 .hamburger-link .hamburger-icon-instagram:hover {
-  stroke: #fd9222;
+  stroke: var(--accent-color);
 }
 
 /**************TABLET HEADER******************/
@@ -189,21 +189,21 @@
     height: 24px;
   }
   .hamburger-link .hamburger-icon {
-    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: stroke var(--transition-dur-and-func);
   }
   .hamburger-link .hamburger-icon-instagram {
-    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: stroke var(--transition-dur-and-func);
   }
   .hamburger-link .hamburger-icon:hover {
-    stroke: #fd9222;
+    stroke:var(--accent-color);
   }
   .hamburger-link .hamburger-icon:focus {
-    stroke: #fd9222;
+    stroke: var(--accent-color);
   }
   .hamburger-link .hamburger-icon-instagram:hover {
-    stroke: #fd9222;
+    stroke: var(--accent-color);
   }
   .hamburger-link .hamburger-icon-instagram:focus {
-    stroke: #fd9222;
+    stroke: var(--accent-color);
   }
 }
