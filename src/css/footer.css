@@ -30,12 +30,10 @@
 }
 
 .footer-contact-header {
-    font-size: 14px;
     font-weight: 500;
     line-height: 1.28;
     color: var(--pr-title-color);
     margin-bottom: 14px;
-    letter-spacing: -0.02em;
 }
 
 .footer-contact-information {
@@ -59,10 +57,7 @@
 }
 
 .footer-auth-nav .footer-link {
-    font-size: 14px;
     color: var(--pr-title-color);
-    letter-spacing: -0.02em;
-    text-decoration: none;
 }
 
 .footer-filters::before {
@@ -81,12 +76,9 @@
 }
 
 .footer-filters-items .footer-link {
-    font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     color: var(--pr-title-color);
-    letter-spacing: -0.02em;
-    text-decoration: none;
 }
 
 .footer-link {
