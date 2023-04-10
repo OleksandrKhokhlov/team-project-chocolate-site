@@ -4,8 +4,8 @@ new Swiper(".mySwiper", {
   grabCursor: true,
   loop: false,
   pagination: {
-    el: ".swiper-pagination",
-    clickable: false,
+    el: ".swiper-pagination-2",
+    clickable: true,
 
   },
   breakpoints: {

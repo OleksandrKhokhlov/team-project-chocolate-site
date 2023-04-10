@@ -1,6 +1,6 @@
 new Swiper('.reviews-slider', {
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination-1',
     clickable: true,
   },
   grabCursor: true,
