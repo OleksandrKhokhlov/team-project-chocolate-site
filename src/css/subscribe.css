@@ -1,6 +1,6 @@
 .subsribe-section {
     padding-bottom: 72px;
-    max-width: 1200px;
+    width: 100%;
     max-height: 370px;
     background-image: url(../img/subscribe/subcribe_desk_2x.jpg);
     background-repeat: no-repeat;
@@ -39,6 +39,7 @@
     border: none;
     display: block;
     margin: 0 auto;
+    transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-btn:hover,
