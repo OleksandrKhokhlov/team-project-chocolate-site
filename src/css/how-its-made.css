@@ -2,13 +2,11 @@
   margin-top: 72px;
 }
 .how-container {
-  background-color: #fff;
+  background-color: var(--pr-bg-color);
   border-radius: 15px;
   padding: 20px 14px;
 }
 .how-its-made-title {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -20,17 +18,12 @@
   margin-bottom: 32px;
 }
 .how-its-made-item {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   letter-spacing: -0.02em;
   color: var(--pr-text-color);
 }
 
 .how-its-made-span {
-  color: #fd9222;
+  color: var(--accent-color);
   margin-left: 6px;
 }
 .try-it-interaction {
@@ -38,7 +31,7 @@
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.333;
   color: var(--pr-text-color);
 }
 .how-its-made-list {
@@ -71,8 +64,6 @@
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .how-container {
-    background-color: #fff;
-    border-radius: 15px;
     width: 335px;
     padding: 20px 14px;
   }
@@ -80,36 +71,16 @@
     margin-top: 72px;
   }
   .how-its-made-title {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: -0.03em;
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--pr-text-color);
     margin-bottom: 32px;
   }
-  .how-its-made-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: var(--pr-text-color);
-  }
 
   .how-its-made-span {
-    color: #fd9222;
+    color: var(--accent-color);
     margin-left: 6px;
-  }
-  .try-it-interaction {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    color: var(--pr-text-color);
-    margin-bottom: 20px;
   }
   .how-its-made-list {
     list-style-type: disc;
@@ -127,14 +98,9 @@
 
 @media screen and (min-width: 768px) {
   .how-its-made-title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.17;
-    letter-spacing: -0.03em;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--pr-text-color);
     margin-bottom: 50px;
   }
   .how-container {
@@ -147,7 +113,6 @@
   }
   .how-container {
     width: 614px;
-    background-color: #fff;
     border-radius: 15px;
   }
 }
