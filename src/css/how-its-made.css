@@ -1,5 +1,6 @@
 .how-its-made {
-  margin-top: 72px;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 .how-container {
   background-color: var(--pr-bg-color);
@@ -67,9 +68,7 @@
     width: 335px;
     padding: 20px 14px;
   }
-  .how-its-made {
-    margin-top: 72px;
-  }
+
   .how-its-made-title {
     display: flex;
     justify-content: center;
@@ -97,6 +96,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .how-its-made {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .how-its-made-title {
     display: flex;
     justify-content: center;
@@ -127,6 +130,10 @@
   }
 }
 @media screen and (min-width: 1200px) {
+   .how-its-made {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
   .how-container {
     width: 516px;
     padding: 32px;
