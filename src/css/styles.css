@@ -20,6 +20,9 @@
 /* <!-- Unique components  --> */
 /* @import url('./'); */
 
+/* <!---- How its made?  -----> */
+/* @import url('./'); */ 
+
 /* <!------- Buy now  ------>  */
 /* @import url('./'); */
 
@@ -36,7 +39,7 @@
 @import url('./reviews.css');
 
 /* <!---- Subscribe -----> */
-@import url('./footer.css');
+@import url('./subscribe.css');
 
 /* <!---- Footer -----> */
 /* @import url('./'); */
