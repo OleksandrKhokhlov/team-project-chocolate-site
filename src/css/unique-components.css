@@ -1,0 +1,228 @@
+.unique {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.unique-title {
+    max-width: 283px;
+    margin: 0 auto 24px;
+}
+
+.unique-title-span {
+    color: var(--accent-color);
+}
+
+.unique-text {
+    max-width: 335px;
+    color: var(--pr-text-color);
+    text-align: center;
+    margin: 0 auto 32px;
+}
+
+.unique-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.unique-item {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    width: 100%;
+    height: 270px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.chocolate-item {
+    background-color: var(--accent-color);
+}
+
+.milk-semi-item {
+    background-color: var(--pr-title-color);
+    border: 1px solid #fd9222;
+}
+
+.nuts-item {
+    background-color: var(--sec-bg-color);
+}
+
+.chocolate-item:is(:hover, :active),
+.milk-semi-item:is(:hover, :active),
+.nuts-item:is(:hover, :active) {
+    background-color: transparent;
+}
+
+.unique-item:is(:hover, :focus) {
+    border: none;
+}
+
+.unique-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.unique-front-img {
+    margin: 0 auto 25px;
+}
+
+.unique-front-text {
+    padding-left: 28px;
+    font-weight: 600;
+    color: var(--pr-title-color);
+}
+
+.unique-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 28px;
+    background-color: var(--pr-bg-color);
+    transform: rotateY(90deg);
+    overflow: auto;
+    transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: default;
+}
+
+.cards-link:is(:hover, :focus) {
+    display: block;
+}
+
+.cards-link:is(:hover, :focus) .unique-back {
+    transform: rotateY(0);
+}
+
+.unique-back-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    margin-bottom: 8px;
+}
+
+.unique-back-list {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.unique-back-item button {
+    cursor: pointer;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.unique-back-item button:is(:hover, :focus) {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.unique-back-item:not(:last-child) {
+    margin-right: 6px;
+}
+
+.unique-btn-1 {
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 35px;
+    padding: 6px 16px;
+    font-size: 10px;
+    line-height: 1.2;
+    color: var(--pr-title-color);
+}
+
+.chocolate-btn-1 {
+    width: 81px;
+}
+
+.unique-btn-2 {
+    width: 93px;
+    height: 24px;
+    background-color: var(--bg-price-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 35px;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.unique-back-text {
+    max-width: 279px;
+    height: 145px;
+    overflow: hidden;
+    cursor: text;
+}
+
+.milk-semi-text {
+    color: var(--pr-text-color);
+}
+
+.milk-btn-1 {
+    width: 54px;
+}
+
+.nuts-btn-1 {
+    width: 56px;
+}
+
+.semi-btn-1 {
+    width: 114px;
+}
+
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+    .unique {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .unique-title {
+        max-width: 411px;
+        margin-bottom: 28px;
+        font-size: 24px;
+        line-height: 1.17;
+    }
+    .unique-text {
+        max-width: 486px;
+        margin-bottom: 50px;
+    }
+    .unique-item {
+        width: calc((100% - 32px) / 2);
+    }
+    .unique-item:nth-child(-2n + 3) {
+        margin-right: 32px;
+    }
+    .unique-item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .unique-item:nth-child(-n + 2) {
+        margin-bottom: 32px;
+    }
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 1200px) {
+    .unique {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .unique-item {
+        width: calc((100% - 3 * 19px) / 4);
+    }
+    .unique-item:nth-child(-2n + 3) {
+        margin-right: 0;
+    }
+    .unique-item:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 19px;
+    }
+    .unique-item:nth-child(-n + 2) {
+        margin-bottom: 0;
+    }
+    .semi-back-text {
+        height: 109px;
+    }
+    .milk-back-text {
+        height: 145px;
+    }
+}

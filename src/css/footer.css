@@ -5,7 +5,7 @@
 .footer-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 375px;
+    max-width: 374px;
     padding: 32px 20px;
 }
 
@@ -18,7 +18,7 @@
     font-weight: 500;
     line-height: 1.16;
     color: var(--pr-title-color);
-    width: 300px;
+    max-width: 300px;
     margin-bottom: 32px;
 }
 
@@ -59,7 +59,7 @@
 
 .footer-filters::before {
     content: '';
-    width: 335px;
+    width: 320px;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.1);
     display: inline-block;
@@ -103,6 +103,20 @@
 .twit-svg:is(:hover, :focus) {
     stroke: var(--accent-color);
 } 
+
+@media screen and (min-width: 375px) {
+    .footer-container {
+      max-width: 375px;
+    }
+
+    .footer-filters::before {
+        width: 335px;
+    }
+
+    .footer-slogan {
+        width: 300px;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .footer-container{
