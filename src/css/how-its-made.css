@@ -108,6 +108,8 @@
   }
   .try-it-interaction {
     width: 350px;
+
+    margin-top: 32px;
   }
   .how-container {
     width: 614px;
@@ -117,7 +119,6 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .how-its-made-list {
     width: 550px;
-    margin: 0 auto;
   }
 }
 @media screen and (max-width: 1199px) {
