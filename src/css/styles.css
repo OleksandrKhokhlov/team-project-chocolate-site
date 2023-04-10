@@ -12,7 +12,7 @@
 @import url('./header.css');
 
 /* <!------- Hero  -------> */
-/* @import url('./'); */
+@import url('./hero.css');
 
 /* <!---- Advantages  ----> */
 /* @import url('./'); */
@@ -33,7 +33,7 @@
 @import url('./reviews.css');
 
 /* <!---- Subscribe -----> */
-/* @import url('./'); */
+@import url('./footer.css');
 
 /* <!---- Footer -----> */
 /* @import url('./'); */

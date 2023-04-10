@@ -1,9 +1,6 @@
-/* .header--fixed {
-  position: fixed;
-  z-index: 9999;
-  left: 0;
-  top: 0;
- } */
+.header {
+  width: 100%;
+}
 .logo-header {
   display: flex;
   font-weight: 700;
@@ -23,6 +20,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header--fixed {
+  background-color: rgba(252, 241, 224, 0.7);
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
 }
 .chocolate {
   margin-left: 6px;
@@ -105,7 +109,7 @@
 }
 .item-nav:hover,
 .item-nav:focus {
-  color:  var(--accent-color);
+  color: var(--accent-color);
 }
 .hamburger-social-list {
   margin: 0;
@@ -200,7 +204,7 @@
     transition: stroke var(--transition-dur-and-func);
   }
   .hamburger-link .hamburger-icon:hover {
-    stroke:var(--accent-color);
+    stroke: var(--accent-color);
   }
   .hamburger-link .hamburger-icon:focus {
     stroke: var(--accent-color);
