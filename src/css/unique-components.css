@@ -38,6 +38,21 @@
     background-color: var(--accent-color);
 }
 
+.milk-semi-item {
+    background-color: var(--pr-title-color);
+    border: 1px solid #fd9222;
+}
+
+.nuts-item {
+    background-color: var(--sec-bg-color);
+}
+
+.chocolate-item:is(:hover, :active),
+.milk-semi-item:is(:hover, :active),
+.nuts-item:is(:hover, :active) {
+    background-color: transparent;
+}
+
 .unique-item:is(:hover, :focus) {
     border: none;
 }
@@ -135,21 +150,12 @@
     cursor: text;
 }
 
-.milk-semi-item {
-    background-color: var(--pr-title-color);
-    border: 1px solid #fd9222;
-}
-
 .milk-semi-text {
     color: var(--pr-text-color);
 }
 
 .milk-btn-1 {
     width: 54px;
-}
-
-.nuts-item {
-    background-color: var(--sec-bg-color);
 }
 
 .nuts-btn-1 {
