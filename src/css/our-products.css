@@ -1,0 +1,140 @@
+.our-products-second-title {
+  color: var(--accent-color);
+}
+
+.product-card {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.card-image {
+  margin-bottom: 8px;
+}
+
+.chocolate-type {
+  font-size: 12px;
+
+  color: var(--pr-description-color);
+}
+
+.chocolate-taste {
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  color: var(--sec-title-color);
+}
+
+.chocolate-price {
+  padding: 8px 20px;
+  background: var(--bg-price-color);
+  border: 1px solid var(--bg-circle-color);
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--sec-title-color);
+}
+
+.our-products {
+  padding-top: calc(77px / 2);
+  padding-bottom: calc(67px / 2);
+}
+
+.container-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.slider-content {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+}
+
+.product-image {
+  height: 201px;
+  width: 230px;
+  margin-bottom: 8px;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  background: var(--pr-title-color);
+  border: 1px solid var(--bg-circle-color);
+  border-radius: 15px;
+  padding: 32px 20px;
+}
+
+.chocolate-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .title{
+    margin-bottom: 50px;
+  }
+
+  .our-products {
+    padding: calc(100px / 2) 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title{
+    margin-bottom: 50px;
+  }
+
+  .our-products {
+    padding: calc(128px / 2) 0;
+  }
+}
+
+
+/* <!---- OVERWRITE SWIPER.JS STYLES  -----> */
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--accent-color);
+  width: 28px;
+  border-radius: 13px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: initial;
+  display: flex;
+  gap: 13px;
+  justify-content: center;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: initial;
+}
+
+.swiper-pagination {
+  position: initial;
+}
