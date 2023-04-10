@@ -1,4 +1,4 @@
-new Swiper('.reviews-slider', {
+const swiper = new Swiper('.reviews-slider', {
   pagination: {
     el: '.swiper-pagination-1',
     clickable: true,
@@ -12,12 +12,11 @@ new Swiper('.reviews-slider', {
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 16
+      spaceBetween: 16,
     },
     1200: {
       slidesPerView: 3,
-      spaceBetween: 28
-    }
-  }
-
+      spaceBetween: 28,
+    },
+  },
 });
