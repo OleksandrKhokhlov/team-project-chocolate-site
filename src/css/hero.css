@@ -137,6 +137,11 @@ button {
   height: 16px;
   fill: var(--accent-color);
 }
+@media screen and (max-width:374px) {
+  .hero-buttons{
+    width: 300px;
+  }
+}
 /****************TABLET HERO***************************/
 @media screen and (min-width: 768px) {
   .hero {
