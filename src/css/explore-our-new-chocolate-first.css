@@ -1,0 +1,251 @@
+/* modal */
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 47, 66, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal {
+    width: 538px;
+    height: 412px;
+    background: var(--bg-price-color);
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.modal-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.modal-close:hover {
+    background: #FCF1E0;
+    fill: var(--accent-color);
+}
+
+.explore-modal-title {
+    height: 56px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--pr-text-color);
+    padding: 40px 200px 28px 40px;
+}
+
+.explore-modal-title span {
+    color: var(--accent-color);
+}
+
+.explore-form-input {
+    width: 313px;
+    height: 52px;
+    border: 1.5px solid rgba(64, 64, 64, 0.3);
+    border-radius: 30px;
+    padding-left: 24px;
+    margin-top: 50px;
+}
+
+.explore-form-btn {
+    color: var(--pr-title-color);
+    background: var(--accent-color);
+    border-radius: 100px;
+    border: none;
+    padding: 17px 40px;
+    margin-left: 8px;
+}
+
+.explore-form-btn:hover,
+.explore-form-btn:focus {
+    background: #FCF1E0;
+    color: var(--accent-color);
+}
+
+.img-style-radius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+@media screen and (min-width: 375px) {
+    .modal {
+        max-width: 375px;
+    }
+
+    .modal {
+    width: 311px;
+    height: 350px;
+    }
+
+    .modal-close {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    }
+
+    .img-style-radius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 169px;
+    }
+
+    .explore-modal-title {
+    height: 48px;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 32px 24px 24px 24px;
+    }
+
+    .explore-form-label {
+    padding-left: 24px;
+    }
+
+    .explore-form-input {
+    width: 263px;
+    height: 45px;
+    }
+
+    .explore-form-btn {
+    padding: 14px 22px;
+    margin-left: 0;
+    position: absolute;
+    top: 275px;
+    right: 24px;
+    }
+
+        @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+    .modal {
+        background-image: url(../img/explore_our_new_chocolate_first/explore_mobile_2x.jpg);
+    }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .modal {
+        max-width: 768px;
+    }
+
+    .modal {
+    width: 538px;
+    height: 412px;
+    }
+   
+    .modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    }
+
+    .img-style-radius {
+    height: 196px;
+    }
+
+    .explore-modal-title {
+    height: 56px;
+    font-size: 24px;
+    line-height: 1.16;
+    padding: 40px 200px 28px 40px;
+    }
+
+    .explore-form-label {
+    padding-left: 40px;
+    }
+
+    .explore-form-input {
+    width: 313px;
+    height: 52px;
+    }
+
+    .explore-form-btn {
+    padding: 17px 40px;
+    margin-left: 8px;
+    position: unset;
+    }
+
+    @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+    .modal {
+        background-image: url(../img/explore_our_new_chocolate_first/explore_tablet_2x.jpg);
+    }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .modal {
+        max-width: 1200px;
+    }
+
+    .modal {
+    width: 538px;
+    height: 412px;
+    }
+
+    .modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    }
+
+    .img-style-radius {
+    height: 196px;
+    }
+
+    .explore-modal-title {
+    height: 56px;
+    font-size: 24px;
+    line-height: 1.16;
+    padding: 40px 200px 28px 40px;
+    }
+
+    .explore-form-label {
+    padding-left: 40px;
+    }
+
+    .explore-form-input {
+    width: 313px;
+    height: 52px;
+    }
+
+    .explore-form-btn {
+    padding: 17px 40px;
+    margin-left: 8px;
+    position: unset;
+    }
+
+    @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+    .modal {
+        background-image: url(../img/explore_our_new_chocolate_first/explore_desk_2x.jpg);
+    }
+    }
+}
