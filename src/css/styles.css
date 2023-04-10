@@ -24,13 +24,13 @@
 @import url('./how-its-made.css');
 
 /* <!---- Our products  -----> */
- @import url('./our-products.css');
+@import url('./our-products.css');
 
 /* <!---- Top sellers  -----> */
 @import url('./top-sellers.css');
 
 /* <!---- Reviews  -----> */
-/* @import url('./'); */
+@import url('./reviews.css');
 
 /* <!---- Subscribe -----> */
 @import url('./footer.css');
