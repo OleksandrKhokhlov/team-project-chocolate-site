@@ -125,6 +125,7 @@
   background: var(--bg-circle-color);
   width: 13px;
   height: 13px;
+  opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
