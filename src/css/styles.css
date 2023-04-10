@@ -5,66 +5,47 @@
   |============================
 */
 
-
 /* <!------- Reset -------> */
-
 @import url('./basic-styles.css');
 
 /* <!----- Header  ------> */
-
 @import url('./header.css');
 
 /* <!------- Hero  -------> */
-
 @import url('./hero.css');
 
 /* <!---- Advantages  ----> */
 
-
 /* <!-- Unique components  --> */
-
 @import url('./unique-components.css');
 
-/* <!------- Buy now  ------>  */
-
-
 /* <!---- How its made?  -----> */
-
 @import url('./how-its-made.css');
 
 /* <!---- Our products  -----> */
-
 @import url('./our-products.css');
 
 /* <!---- Top sellers  -----> */
-
 @import url('./top-sellers.css');
 
 /* <!---- Reviews  -----> */
-
 @import url('./reviews.css');
 
 /* <!---- Subscribe -----> */
-
 @import url('./subscribe.css');
 
 /* <!---- Footer -----> */
-
 @import url('./footer.css');
 
 /* <!------- Modal --------> */
 
-
 /* <!------- Buy now ------> */
 
-
 /* <!---- Leave a review about our chocolate ----> */
-@import url("./modal-review.css");
+@import url('./modal-review.css');
 
 /* <!---- Explore our new chocolate first ----> */
-
 @import url('./explore-our-new-chocolate-first.css');
 
 /* ----- btn-scroll-header ------ */
-
 @import url('./btn-scroll-header.css');
