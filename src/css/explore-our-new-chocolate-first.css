@@ -8,6 +8,7 @@
   top: 0;
   left: 0;
   z-index: 99;
+  opacity: 1;
   transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1),
     visibility 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -24,31 +25,31 @@
   transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden-1 {
+.backdrop.is-hidden {
   opacity: 0;
-  visibility: hidden;
   pointer-events: none;
 }
 
-.backdrop.is-hidden-1 .modal {
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
 
 .modal-close {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    fill: var(--pr-title-color);
-    background: none;
-    border: none;
-    cursor: pointer;
-    transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: absolute;
-    top: 24px;
-    right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  fill: var(--pr-title-color);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 24px;
+  right: 24px;
 }
 
 .modal-close:hover {
@@ -100,12 +101,10 @@
   border-top-right-radius: 15px;
 }
 
-
-
 @media screen and (min-width: 311px) {
-    .modal {
-        max-width: 320px;
-    }
+  .modal {
+    max-width: 320px;
+  }
 
   .modal {
     width: 311px;
@@ -116,7 +115,7 @@
     position: absolute;
     top: 15px;
     right: 14px;
-    }
+  }
 
   .img-style-radius {
     border-top-left-radius: 15px;
@@ -158,9 +157,9 @@
 }
 
 @media screen and (min-width: 768px) {
-    .modal {
-        max-width: 767px;
-    }
+  .modal {
+    max-width: 767px;
+  }
 
   .modal {
     width: 538px;
@@ -209,10 +208,9 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .modal {
-        max-width: 1199px;
-    }
-
+  .modal {
+    max-width: 1199px;
+  }
 
   .modal {
     width: 538px;

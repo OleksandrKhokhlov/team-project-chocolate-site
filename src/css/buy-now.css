@@ -7,19 +7,16 @@
     height: 100%;
     top: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 99;
     background: rgba(46, 47, 66, 0.4);
 
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    opacity: 1;
     transition: opacity var(--transition-dur-and-func),
       visibility var(--transition-dur-and-func);
   }
-  .backdrop.is-hidden {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+  .buy-now__backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
   }
 }
 
