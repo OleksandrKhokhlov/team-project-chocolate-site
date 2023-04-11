@@ -28,6 +28,12 @@
   left: 0;
   top: 0;
 }
+@media screen and (max-width: 374px) {
+.header--fixed .header-sup{
+  padding: 0;
+}
+
+}
 .chocolate {
   margin-left: 6px;
 }

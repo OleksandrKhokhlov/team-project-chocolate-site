@@ -1,9 +1,8 @@
 .how-its-made {
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-bottom: 72px;
 }
 .how-container {
-  background-color: var(--pr-bg-color);
+  background-color: var(--sec-text-color);
   border-radius: 15px;
   padding: 20px 14px;
 }
