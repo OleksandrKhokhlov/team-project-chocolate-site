@@ -15,6 +15,10 @@
 @import url('./hero.css');
 
 /* <!---- Advantages  ----> */
+<<<<<<< Updated upstream
+=======
+@import url('./advantages.css');
+>>>>>>> Stashed changes
 
 /* <!-- Unique components  --> */
 @import url('./unique-components.css');
