@@ -79,8 +79,21 @@
   .advantages-list {
     gap: 88px;
   }
-  
+
   .advantages-item {
     margin-bottom: 0;
+
+    position: relative;
+  }
+
+  .advantages-item:nth-child(-n + 2)::before {
+    content: '';
+    width: 124px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    position: absolute;
+    transform: rotate(90deg);
+    left: 270px;
+    top: 110px;
   }
 }
