@@ -194,6 +194,8 @@
         color: var(--pr-title-color);
         border: var(--accent-color);
         border-radius: 100px;
+
+        transition: background-color var(--transition-dur-and-func);
     }
     .buy-now__modal-close-button:hover,
     .buy-now__modal-close-button:focus {
@@ -377,6 +379,8 @@
         color: var(--pr-title-color);
         border: var(--accent-color);
         border-radius: 100px;
+
+        transition: background-color var(--transition-dur-and-func);
     }
     .buy-now__modal-close-button:hover,
     .buy-now__modal-close-button:focus {
