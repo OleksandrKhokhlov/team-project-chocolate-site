@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <!---------- Favicon --------->
-    <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chocolate site Team project</title>
     <!----------- Fonts ---------->
@@ -20,45 +20,45 @@
     />
     <!--------- SWIPER.JS STYLES -------->
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <!------------ CSS ----------->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!------------ Header ----------->
-    <!-- <load src="partials/" /> -->
+    <load src="./partials/header.html" />
 
     <!------------ Main ------------->
     <main>
       <!------------ Hero ----------->
-      <!-- <load src="partials/" /> -->
+      <load src="./partials/hero.html" />
 
       <!------ Advantages ---------->
-      <!-- <load src="partials/" /> -->
 
       <!----- Unique components ---->
-      <!-- <load src="partials/" /> -->
+      <load src="./partials/unique-components.html" />
 
       <!------ How its made? ------->
-      <!-- <load src="partials/" /> -->
+      <load src="./partials/how-its-made.html" />
 
       <!-------- Our products ------>
-      <load src="./partials/our-products-section.html"/>
+      <load src="./partials/our-products-section.html" />
 
       <!-------- Top sellers ------->
-      <load src="partials/top-sellers.html" />
+      <load src="./partials/top-sellers.html" />
 
       <!---------- Reviews --------->
-      <!-- <load src="partials/" /> -->
+      <load src="./partials/reviews.html" />
 
       <!---------- Subscribe ------->
-      <!-- <load src="partials/" /> -->
+      <load src="./partials/subscribe.html" />
     </main>
 
     <!------------ Footer ---------->
-    <!-- <load src="partials/" /> -->
+    <load src="./partials/footer.html" />
 
     <!------------ Modal ----------->
 
@@ -66,27 +66,42 @@
     <load src="partials/buy-now.html" />
 
     <!---- Leave a review about our chocolate ---->
-    <!-- <load src="partials/" /> -->
+    <load src="./partials/modal-review.html" />
 
     <!----- Explore our new chocolate first ------>
-    <!-- <load src="partials/" /> -->
+    <load src="./partials/explore-our-new-chocolate-first.html" />
 
-    <!----- btn-scroll-header ------>
-    <load src="partials/btn-scroll-header.html" />
+    <!----- Btn-scroll-header ------>
+    <load src="./partials/btn-scroll-header.html" />
 
     <!------------ JS ----------->
+    <!------- hamburger-menu -------->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./js/hamburger.js"></script>
+
     <!----- btn-scroll-header ------>
     <script type="module" src="./js/btn-scroll-header.js"></script>
 
-    <!--------- OUR-PRODUCTS-SLIDER -------->
+    <!--------- SLIDER -------->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="./js/our-products-slider.js"></script>
 
-    <!----- heder-fixed-scrol ------>
+    <!--------- OUR-PRODUCTS-SLIDER -------->
+    <script type="module" src="./js/our-products-slider.js"></script>
+
+    <!--------- REVIEWS-SLIDER -------->
+    <script type="module" src="./js/swiper-reviews.js"></script>
+
+    <!----- Heder-fixed-scrol ------>
     <script type="module" src="./js/heder-fixed-scrol.js"></script>
-    <!------- modal-form ------->
-    <script type="module" src="./js/modal-form.js"></script>
-    <script type="module" src="./js/buy-now.js"></script>
 
+    <!------- Modal-form ------->
+    <script type="module" src="./js/modal-form.js"></script>
+    <script type="module" src="./js/modal-form-1.js"></script>
+    <script type="module" src="./js/modal-form-2.js"></script>
   </body>
 </html>
