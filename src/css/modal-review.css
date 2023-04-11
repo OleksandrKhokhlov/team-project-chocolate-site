@@ -29,18 +29,26 @@
   transform: translate(-50%, -50%) scale(0);
 }
 .review-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  fill: var(--pr-title-color);
   position: absolute;
   top: 14px;
   right: 14px;
-  padding: 0;
-  stroke: var(--sec-title-color);
+  fill: #111111;
   border: none;
   background-color: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-close-btn:hover,
 .review-close-btn:focus {
-  stroke: var(--accent-color);
+  background: #fcf1e0;
+  fill: var(--accent-color);
 }
 .modal-review-title {
   max-width: 255px;

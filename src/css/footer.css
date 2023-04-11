@@ -27,6 +27,7 @@
 }
 
 .footer-contact-header {
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.28;
   color: var(--pr-title-color);
@@ -94,7 +95,7 @@
 .twit-svg {
   fill: transparent;
   stroke: var(--pr-title-color);
-   transition: stroke var(--transition-dur-and-func);
+  transition: stroke var(--transition-dur-and-func);
 }
 
 .inst-svg:is(:hover, :focus),

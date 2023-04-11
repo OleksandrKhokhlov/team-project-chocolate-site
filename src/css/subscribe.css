@@ -121,14 +121,7 @@
   }
 
   .subscribe-title {
-    font-size: 24px;
-    line-height: 1.16;
     width: 378px;
-  }
-
-  .subscribe-btn {
-    font-size: 18px;
-    line-height: 1.22;
   }
 
   @media (min-device-pixel-ratio: 2),
