@@ -5,6 +5,7 @@
         
         width: 100%;
         height: 100%;
+        padding: 0 20px;
         top: 0;
         right: 0;
         z-index: 1000;
@@ -91,6 +92,10 @@
 
         transition: border-color var(--transition-dur-and-func);
     }
+    .buy-now__gram:hover,
+    .buy-now__gram:focus {
+        border-color: var(--focus-border-color);
+    }
 
     .buy-now__modal-form-wrapper {
         display: block;
@@ -105,8 +110,8 @@
 
     .buy-now__modal-form-desc {
         position: relative;
-
     }
+
     .buy-now__modal-form-input {
         width: 100%;
         height: 45px;
@@ -118,6 +123,10 @@
         border-radius: 8px;
 
         transition: border-color var(--transition-dur-and-func);
+    }
+    .buy-now__modal-form-input:hover,
+    .buy-now__modal-form-input:focus {
+        border-color: var(--focus-border-color);
     }
 
     .buy-now__name {
@@ -201,11 +210,13 @@
         border: var(--accent-color);
         border-radius: 100px;
 
-        transition: background-color var(--transition-dur-and-func);
+        transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func), border-color var(--transition-dur-and-func);
     }
     .buy-now__modal-close-button:hover,
     .buy-now__modal-close-button:focus {
-        background-color: var(--pr-text-color);
+        background-color: var(--pr-hover-color);
+        color: var(--accent-color);
+        border-color: var(--pr-hover-color)
     }
 
 }
@@ -267,14 +278,20 @@
         font-weight: 600;
         line-height: 1.21;
         font-size: 14px;
-        padding: 8px 28px;
+        padding: 8px 26px;
 
         color: var(--sec-title-color);
         border: 1px solid var(--bg-circle-color);
         border-radius: 100px;
         cursor: pointer;
 
+        transition: border-color var(--transition-dur-and-func);
     }
+    .buy-now__gram:hover,
+    .buy-now__gram:focus {
+        border-color: var(--focus-border-color);
+    }
+
     .buy-now__list-title {
         width: 160px;
         
@@ -291,9 +308,6 @@
         gap: 21px;
     }
     
-
-
-
     .buy-now__modal-form-wrapper {
         display: block;
         margin-bottom: 8px;
@@ -309,6 +323,7 @@
     .buy-now__modal-form-desc {
         position: relative;
     }
+
     .buy-now__modal-form-input {
         width: 100%;
         height: 66px;
@@ -316,16 +331,18 @@
         margin-bottom: 18px;
 
         font-size: 18px;
-        background-color: var(--bg-price-color);
+        background-color: inherit;
         border: 1.5px solid rgba(17, 17, 17, 0.05);
         filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
         border-radius: 8px;
 
         transition: border-color var(--transition-dur-and-func);
     }
-    .buy-now__name {
-        
+    .buy-now__modal-form-input:hover,
+    .buy-now__modal-form-input:focus {
+        border-color: var(--focus-border-color);
     }
+
     .buy-now__form-modal {
         padding-left: 120px;
     }
@@ -396,11 +413,13 @@
         border: var(--accent-color);
         border-radius: 100px;
 
-        transition: background-color var(--transition-dur-and-func);
+        transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func), border-color var(--transition-dur-and-func);
     }
     .buy-now__modal-close-button:hover,
     .buy-now__modal-close-button:focus {
-        background-color: var(--pr-text-color);
+        background-color: var(--pr-hover-color);
+        color: var(--accent-color);
+        border-color: var(--pr-hover-color);
     }
 
 }
