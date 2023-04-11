@@ -42,15 +42,13 @@
   border-radius: 100px;
   cursor: pointer;
   font-weight: 600;
-  font-size: 14px;
   line-height: 1.5;
-
   color: var(--sec-title-color);
 }
 
-.our-products{
-  padding-top: calc(77px/2);
-  padding-bottom: calc(67px/2);
+.our-products {
+  padding-top: calc(77px / 2);
+  padding-bottom: calc(67px / 2);
 }
 
 .container-slider {
@@ -93,11 +91,45 @@
   margin-bottom: 18px;
 }
 
+@media screen and (min-width: 768px) {
+  .title{
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  .our-products {
+    padding: calc(100px / 2) 0;
+  }
+
+  .container-slider{
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title{
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  .our-products {
+    padding: calc(128px / 2) 0;
+  }
+
+  .container-slider{
+    gap: 32px;
+  }
+}
+
 
 /* <!---- OVERWRITE SWIPER.JS STYLES  -----> */
 .swiper-pagination-bullet {
+  background: var(--bg-circle-color);
   width: 13px;
   height: 13px;
+  opacity: 1;
 }
 
 .swiper-pagination-bullet-active {

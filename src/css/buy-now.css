@@ -1,3 +1,4 @@
+
 @media screen and (min-width:270px) {
     .buy-now__backdrop {
         position: fixed;
@@ -21,7 +22,6 @@
         pointer-events: auto;
     }
 }
-
 
 /*...................Mobile version............*/
 
@@ -207,7 +207,6 @@
     .buy-now__modal-close-button:focus {
         background-color: var(--pr-text-color);
     }
-
 }
 
 /*...................Tablet................*/
@@ -402,5 +401,4 @@
     .buy-now__modal-close-button:focus {
         background-color: var(--pr-text-color);
     }
-
 }
