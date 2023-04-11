@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 /* .visually-hidden {
+=======
+.visually-hidden {
+>>>>>>> Stashed changes
     position: absolute;
     width: 1px;
     height: 1px;
@@ -9,7 +13,11 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+<<<<<<< Updated upstream
 } */
+=======
+}
+>>>>>>> Stashed changes
 
 h1,
 h2,
@@ -25,6 +33,13 @@ ul {
   padding: 0;
 }
 
+<<<<<<< Updated upstream
+=======
+
+
+
+
+>>>>>>> Stashed changes
 .advantages-list {
     list-style: none;
     text-decoration: none;
@@ -32,6 +47,11 @@ ul {
     padding: 0;
 }
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 .advantages-icon-blok {
     width: 62px;
     height: 62px;
@@ -44,11 +64,19 @@ ul {
     margin-bottom: 22px;
 }
 
+<<<<<<< Updated upstream
 /* .advantages-icon {
 }
 
 .advantages-box {
 } */
+=======
+.advantages-icon {
+}
+
+.advantages-box {
+}
+>>>>>>> Stashed changes
 
 .advantages-name {
     font-size: 18px;
