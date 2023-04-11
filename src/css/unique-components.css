@@ -146,7 +146,7 @@
 .unique-back-text {
     max-width: 279px;
     height: 145px;
-    overflow: hidden;
+    overflow-y: scroll;
     cursor: text;
 }
 
