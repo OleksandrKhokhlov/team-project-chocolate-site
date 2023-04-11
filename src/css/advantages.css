@@ -1,0 +1,140 @@
+/* .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-list {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-icon-blok {
+    width: 62px;
+    height: 62px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 365px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+/* .advantages-icon {
+}
+
+.advantages-box {
+} */
+
+.advantages-name {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    padding-bottom: 18px;
+    color: #FFFFFF;
+}
+
+.advantages-text {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    padding-bottom: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 374px) {
+    .advantages-section {
+        position: absolute;
+        width: 375px;
+        max-height: 792px;
+        justify-content: center;
+        background: #1E1823;
+    }
+
+    .advantages-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .advantages-item {
+        width: 308px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .advantages-section {
+        width: 100%;
+        min-height: 620px;
+        justify-content: center;
+        background: #1E1823;
+    }
+
+    .advantages-container {
+        width: 704px;
+        margin: 0;
+        padding: 50px 32px;
+    }
+
+    .advantages-list {
+		display: flex;
+		flex-wrap: wrap;
+        column-gap: 24px;   
+    }
+
+    .advantages-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages-section {
+        padding: 50px 50px;
+        margin-left: 0;
+    }
+
+    .advantages-container {
+        width: 1200px;
+        height: 344px;
+        margin-left: 0;
+        padding: 50px 50px;
+    }
+
+    .advantages-list {
+        flex-wrap: nowrap;
+    }
+
+    .advantages-name {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+}
