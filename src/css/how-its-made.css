@@ -96,8 +96,7 @@
 
 @media screen and (min-width: 768px) {
   .how-its-made {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
   .how-its-made-title {
     display: flex;
@@ -130,8 +129,7 @@
 }
 @media screen and (min-width: 1200px) {
    .how-its-made {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-bottom: 128px;
   }
   .how-container {
     width: 516px;

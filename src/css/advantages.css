@@ -49,7 +49,7 @@
 
 @media screen and (min-width: 768px) {
   .advantages-section {
-    margin: 50px 0;
+    margin: 50px 0 0;
     padding: 50px 0;
   }
 
@@ -76,6 +76,10 @@
 /* ------Desktop-----  */
 
 @media screen and (min-width: 1200px) {
+  .advantages-section {
+    margin: 72px 0 0;
+  }
+
   .advantages-list {
     gap: 88px;
   }

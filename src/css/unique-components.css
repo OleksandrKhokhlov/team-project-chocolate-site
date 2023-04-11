@@ -170,8 +170,7 @@
 
 @media screen and (min-width: 768px) {
     .unique {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 100px 0;
     }
     .unique-title {
         max-width: 411px;
@@ -202,8 +201,7 @@
 
 @media screen and (min-width: 1200px) {
     .unique {
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding: 128px 0;
     }
     .unique-item {
         width: calc((100% - 3 * 19px) / 4);

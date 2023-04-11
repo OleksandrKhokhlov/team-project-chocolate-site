@@ -98,7 +98,7 @@
   }
 
   .our-products {
-    padding: calc(100px / 2) 0;
+    padding: 0 0 100px;
   }
 
   .container-slider{
@@ -114,7 +114,7 @@
   }
 
   .our-products {
-    padding: calc(128px / 2) 0;
+    padding: 0 0 128px;
   }
 
   .container-slider{
