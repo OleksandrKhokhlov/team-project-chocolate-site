@@ -45,21 +45,21 @@ img {
 
 :root {
   --sec-font: 'Roboto', sans-serif;
-  /* --------Accent------ */
+  /* --Accent-- */
   --accent-color: #fd9222;
-  /* --------Title------- */
+  /* --Title-- */
   --pr-title-color: #ffffff;
   --sec-title-color: #111111;
-  /* ----Description----- */
+  /* --Description-- */
   --pr-description-color: rgba(17, 17, 17, 0.7);
   --sec-description-color: rgba(255, 255, 255, 0.7);
-  /* --------Text-------- */
+  /* --Text-- */
   --pr-text-color: #111111;
   --sec-text-color: #ffffff;
-  /* ------BG-color------ */
+  /* --BG-color-- */
   --pr-bg-color: #fafafa;
   --sec-bg-color: #1e1823;
-  /* ------BTN------ */
+  /* --BTN-- */
   --pr-hover-color: rgba(252, 241, 224, 1);
   --sec-hover-color: rgba(30, 24, 35, 1);
   --focus-border-color: #fd9222;

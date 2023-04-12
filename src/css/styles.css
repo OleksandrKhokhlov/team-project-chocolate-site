@@ -5,49 +5,49 @@
   |============================
 */
 
-/* <!------- Reset -------> */
+/* <!-- Reset --> */
 @import url('./basic-styles.css');
 
-/* <!----- Header  ------> */
+/* <!-- Header  --> */
 @import url('./header.css');
 
-/* <!------- Hero  -------> */
+/* <!-- Hero  --> */
 @import url('./hero.css');
 
-/* <!---- Advantages  ----> */
+/* <!-- Advantages  --> */
 @import url('./advantages.css');
 
 /* <!-- Unique components  --> */
 @import url('./unique-components.css');
 
-/* <!---- How its made?  -----> */
+/* <!-- How its made?  --> */
 @import url('./how-its-made.css');
 
-/* <!---- Our products  -----> */
+/* <!-- Our products  --> */
 @import url('./our-products.css');
 
-/* <!---- Top sellers  -----> */
+/* <!-- Top sellers  --> */
 @import url('./top-sellers.css');
 
-/* <!---- Reviews  -----> */
+/* <!-- Reviews  --> */
 @import url('./reviews.css');
 
-/* <!---- Subscribe -----> */
+/* <!-- Subscribe --> */
 @import url('./subscribe.css');
 
-/* <!---- Footer -----> */
+/* <!-- Footer --> */
 @import url('./footer.css');
 
-/* <!------- Modal --------> */
+/* <!-- Modal --> */
 
-/* <!------- Buy now ------> */
+/* <!-- Buy now --> */
 @import url('./buy-now.css');
 
-/* <!---- Leave a review about our chocolate ----> */
+/* <!-- Leave a review about our chocolate --> */
 @import url('./modal-review.css');
 
-/* <!---- Explore our new chocolate first ----> */
+/* <!-- Explore our new chocolate first --> */
 @import url('./explore-our-new-chocolate-first.css');
 
-/* ----- btn-scroll-header ------ */
+/* -- btn-scroll-header -- */
 @import url('./btn-scroll-header.css');
