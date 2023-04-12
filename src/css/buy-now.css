@@ -20,6 +20,12 @@
   }
 }
 
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 /*...................Mobile version............*/
 
 @media screen and (max-width: 767px) {
