@@ -41,10 +41,10 @@
 
   row-gap: 18px;
 }
-/* .how-its-made-item::marker {
-  font-size: large;
+.how-its-made-item::before{
+  
   color: #4c4c4c;
-} */
+}
 .how-its-made-img {
   position: relative;
   display: flex;
