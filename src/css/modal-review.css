@@ -40,7 +40,6 @@
   outline: none;
   top: 14px;
   right: 14px;
-  fill: #111111;
   border: none;
   background-color: transparent;
   transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1),
@@ -80,7 +79,7 @@
   outline: transparent;
   cursor: pointer;
 
-   transition: border-color var(--transition-dur-and-func);
+  transition: border-color var(--transition-dur-and-func);
 }
 .form-input-review:hover,
 .form-input-review:focus,

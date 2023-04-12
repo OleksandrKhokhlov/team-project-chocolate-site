@@ -41,7 +41,7 @@
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  fill: var(--pr-title-color);
+  fill: var(--pr-text-color);
   background: none;
   border: none;
   outline: none;
@@ -99,8 +99,8 @@
   padding: 17px 40px;
   margin-left: 8px;
 
-   transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .explore-form-btn:hover,

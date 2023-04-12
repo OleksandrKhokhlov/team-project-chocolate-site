@@ -50,6 +50,7 @@
     right: 14px;
     width: 28px;
     height: 28px;
+    fill: var(--pr-text-color);
     outline: none;
     outline-offset: none;
     background-color: transparent;
