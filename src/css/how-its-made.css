@@ -35,18 +35,16 @@
   color: var(--pr-text-color);
 }
 .how-its-made-list {
-  list-style-type: disc;
-  list-style-position: inside;
   display: flex;
   justify-content: center;
   flex-direction: column;
 
   row-gap: 18px;
 }
-.how-its-made-item::marker {
+/* .how-its-made-item::marker {
   font-size: large;
   color: #4c4c4c;
-}
+} */
 .how-its-made-img {
   position: relative;
   display: flex;
