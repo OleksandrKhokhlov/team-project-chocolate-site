@@ -57,7 +57,7 @@ img {
   --pr-text-color: #111111;
   --sec-text-color: #ffffff;
   /* ------BG-color------ */
-  --pr-bg-color: #e2e2e2;
+  --pr-bg-color: #fafafa;
   --sec-bg-color: #1e1823;
   /* ------BTN------ */
   --pr-hover-color: rgba(252, 241, 224, 1);
@@ -87,6 +87,8 @@ body {
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
+
+  position: relative;
 }
 
 .btn {

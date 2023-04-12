@@ -1,4 +1,4 @@
-const header = document.querySelector('.header');
+const header = document.querySelector('.header-fixed');
 const first = document.querySelector('.hero');
 const headerHeight = header.offsetHeight;
 const firstHeight = first.offsetHeight;
