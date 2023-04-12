@@ -1,0 +1,50 @@
+<div class="backdrop is-hidden" data-review-modal>
+  <div class="modal-review">
+    <button class="review-close-btn" type="button" data-review-close>
+      <svg width="13" height="13">
+        <use href="./img/sprite.svg#icon-vector"></use>
+      </svg>
+    </button>
+    <h2 class="modal-review-title">
+      leave a review about <span class="modal-accent-title">our chocolate</span>
+    </h2>
+    <form>
+      <div class="form-group-review">
+        <input
+          type="text"
+          name="name"
+          placeholder="Name"
+          class="form-input-review"
+          pattern="^[A-Za-z]+$"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          class="form-input-review"
+        />
+        <div class="form-wrap-phone">
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Phone number"
+            class="form-input-review form-input-review-phone"
+            pattern="[0-9]{9}"
+          />
+          <div class="country-code-wrap">
+            <svg width="24" height="24">
+              <use href="./img/sprite.svg#icon-flag"></use>
+            </svg>
+            <span class="country-code">+380</span>
+          </div>
+        </div>
+        <textarea
+          name="coment"
+          placeholder="Enter text"
+          class="form-textarea-review"
+        ></textarea>
+      </div>
+      <button type="submit" class="modal-review-btn btn">Send</button>
+    </form>
+  </div>
+</div>

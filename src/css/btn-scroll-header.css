@@ -3,9 +3,9 @@
 @media screen and (max-width: 1199px) {
 	.btn-up {
 		position: fixed;
-		right: 14px;
+		right: 15px;
 		bottom: 20px;
-		z-index: 100;
+		z-index: 50;
 
 		background-color: transparent;
 		border: none;

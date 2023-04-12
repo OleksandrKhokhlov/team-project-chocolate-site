@@ -18,8 +18,13 @@
       opacity: 0;
       pointer-events: none;
     }
-  }
 
+  }
+  .buy-now__backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 
 /*...................Mobile version............*/
 
@@ -212,7 +217,111 @@
         border-color: var(--pr-hover-color);
 
     }
+    color: #000000;
+  }
 
+  .buy-now__modal-form-desc {
+    position: relative;
+  }
+  .buy-now__modal-form-input {
+    width: 100%;
+    height: 45px;
+    padding: 14px 18px;
+    margin-bottom: 18px;
+    background-color: inherit;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 8px;
+
+    transition: border-color var(--transition-dur-and-func);
+  }
+
+  .buy-now__name {
+    margin-bottom: 14px;
+  }
+
+  .buy-now__message {
+    display: block;
+    resize: none;
+    min-height: 91px;
+  }
+
+  .buy-now__modal-form_input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+
+    color: var(--pr-modal-color);
+  }
+  .buy-now__modal-wrap-desk {
+    position: relative;
+    width: 100%;
+  }
+  .buy-now__modal-flag {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+  }
+  .buy-now__modal-tel {
+    position: relative;
+    left: 100%;
+    top: 50%;
+
+    padding-right: 8px;
+    font-weight: 500;
+    line-height: 1.21;
+    color: #000000;
+
+    transform: translateY(-50%);
+    box-shadow: 1.5px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+  .buy-now__form-modal {
+    padding-left: 120px;
+  }
+  .buy-now__modal-form_input::placeholder {
+    padding-left: 14px;
+    border-left: 1px solid rgba(64, 64, 64, 0.3);
+  }
+
+  .buy-now__svg-flag {
+    top: -140%;
+    position: absolute;
+    margin-right: 8px;
+    transform: translateY(50%);
+  }
+
+  .buy-now__svg-icon {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+  }
+  .buy-now__modal-close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    width: 109px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 14px;
+
+    background-color: var(--accent-color);
+    color: var(--pr-title-color);
+    border: var(--accent-color);
+    border-radius: 100px;
+
+    transition: background-color var(--transition-dur-and-func);
+  }
+  .buy-now__modal-close-button:hover,
+  .buy-now__modal-close-button:focus {
+    background-color: var(--pr-text-color);
+  }
 }
 
 /*...................Tablet................*/
@@ -415,3 +524,8 @@
     }
 
 }
+
+    
+ 
+   
+   
