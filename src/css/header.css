@@ -32,7 +32,7 @@
 .chocolate {
   margin-left: 6px;
 }
-.hamburger-link:hover {
+.hamburger-link:is(:hover, :focus) {
   color: var(--accent-color);
 }
 .hamburger-menu {
@@ -138,10 +138,10 @@
 .hamburger-link .hamburger-icon-instagram {
   transition: stroke var(--transition-dur-and-func);
 }
-.hamburger-link .hamburger-icon:hover {
+.hamburger-link .hamburger-icon:is(:hover, :focus) {
   stroke: var(--accent-color);
 }
-.hamburger-link .hamburger-icon-instagram:hover {
+.hamburger-link .hamburger-icon-instagram:is(:hover, :focus) {
   stroke: var(--accent-color);
 }
 
@@ -210,10 +210,10 @@
   .hamburger-link .hamburger-icon:focus {
     stroke: var(--accent-color);
   }
-  .hamburger-link .hamburger-icon-instagram:hover {
+  .hamburger-link .hamburger-icon-instagram:is(:hover, :focus) {
     stroke: var(--accent-color);
   }
-  .hamburger-link .hamburger-icon-instagram:focus {
+  .hamburger-link .hamburger-icon-instagram:is(:hover, :focus) {
     stroke: var(--accent-color);
   }
 }
