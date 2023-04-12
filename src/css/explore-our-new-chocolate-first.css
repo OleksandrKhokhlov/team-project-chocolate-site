@@ -146,17 +146,6 @@
     top: 275px;
     right: 24px;
   }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .modal {
-      background-image: url(../img/explore_our_new_chocolate_first/explore_mobile_2x.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -200,17 +189,6 @@
     margin-left: 8px;
     position: unset;
   }
-
-  /* @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .modal {
-      background-image: url(../img/explore_our_new_chocolate_first/explore_tablet_2x.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-  } */
 }
 
 @media screen and (min-width: 1200px) {
@@ -254,15 +232,4 @@
     margin-left: 8px;
     position: unset;
   }
-  /* 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .modal {
-      background-image: url(../img/explore_our_new_chocolate_first/explore_desk_2x.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-  } */
 }

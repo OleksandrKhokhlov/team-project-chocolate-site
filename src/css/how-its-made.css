@@ -15,11 +15,12 @@
   justify-content: center;
   align-items: center;
   color: var(--pr-text-color);
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 .how-its-made-item {
   letter-spacing: -0.02em;
   color: var(--pr-text-color);
+  margin-left: 16px;
 }
 
 .how-its-made-span {
@@ -41,9 +42,23 @@
 
   row-gap: 18px;
 }
-.how-its-made-item::before{
-  
-  color: #4c4c4c;
+.how-its-made-item {
+  position: relative;
+}
+.how-its-made-item::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: -16px;
+  top: 4px;
+
+  background: #4c4c4c;
+  border: 1px solid #eceded;
+  border-radius: 100%;
+}
+.how-its-text {
+  color: var(--pr-text-color);
 }
 .how-its-made-img {
   position: relative;
@@ -66,29 +81,16 @@
     padding: 20px 14px;
   }
 
-  .how-its-made-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--pr-text-color);
-    margin-bottom: 32px;
-  }
-
   .how-its-made-span {
     color: var(--accent-color);
     margin-left: 6px;
   }
   .how-its-made-list {
-    list-style-type: disc;
     display: flex;
     justify-content: center;
     flex-direction: column;
     row-gap: 18px;
     margin: 0 auto;
-  }
-  .how-its-made-item::marker {
-    font-size: large;
-    color: #4c4c4c;
   }
 }
 
@@ -105,14 +107,17 @@
   .how-container {
     margin: 0 auto;
   }
+  .how-its-made-list{
+    padding-right: 70px;
+  }
   .try-it-interaction {
     width: 350px;
-
-    margin-top: 32px;
+    margin-bottom: 28px;
   }
   .how-container {
     width: 614px;
     border-radius: 15px;
+    padding: 32px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -126,7 +131,7 @@
   }
 }
 @media screen and (min-width: 1200px) {
-   .how-its-made {
+  .how-its-made {
     padding-bottom: 128px;
   }
   .how-container {
@@ -145,5 +150,6 @@
   }
   .how-its-made-list {
     row-gap: 24px;
+    padding-right: 27px;
   }
 }

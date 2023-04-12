@@ -53,6 +53,7 @@
 
   background-color: var(--sec-text-color);
 }
+
 .review {
   max-width: 299px;
   min-height: 54px;
@@ -64,6 +65,12 @@
   letter-spacing: -0.02em;
 
   color: var(--pr-description-color);
+}
+
+@media screen and (max-width: 374px) {
+  .review {
+    padding-top: 95px;
+  }
 }
 
 .reviews-btn {
