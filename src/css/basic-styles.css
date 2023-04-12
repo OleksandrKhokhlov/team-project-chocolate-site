@@ -62,6 +62,7 @@ img {
   /* ------BTN------ */
   --pr-hover-color: rgba(252, 241, 224, 1);
   --sec-hover-color: rgba(30, 24, 35, 1);
+  --focus-border-color: #fd9222
 
   --pr-modal-color: rgba(64, 64, 64, 0.3);
   --bg-price-color: #fafafa;
