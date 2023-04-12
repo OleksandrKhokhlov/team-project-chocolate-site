@@ -44,6 +44,7 @@
   fill: var(--pr-title-color);
   background: none;
   border: none;
+  outline: none;
   transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
@@ -53,7 +54,7 @@
 
 .modal-close:hover,
 .modal-close:focus {
-  background: #fcf1e0;
+  background: var(--pr-hover-color);
   fill: var(--accent-color);
 }
 
@@ -79,6 +80,14 @@
   border-radius: 30px;
   padding-left: 24px;
   margin-top: 50px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color var(--transition-dur-and-func);
+}
+
+.explore-form-input:hover,
+.explore-form-input:focus {
+  border-color: var(--focus-border-color);
 }
 
 .explore-form-btn {
@@ -86,8 +95,12 @@
   background: var(--accent-color);
   border-radius: 100px;
   border: none;
+  outline: none;
   padding: 17px 40px;
   margin-left: 8px;
+
+   transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .explore-form-btn:hover,

@@ -37,6 +37,7 @@
   border-radius: 50%;
   fill: var(--pr-title-color);
   position: absolute;
+  outline: none;
   top: 14px;
   right: 14px;
   fill: #111111;
@@ -77,12 +78,15 @@
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 8px;
   outline: transparent;
+  cursor: pointer;
+
+   transition: border-color var(--transition-dur-and-func);
 }
 .form-input-review:hover,
 .form-input-review:focus,
 .form-textarea-review:hover,
 .form-textarea-review:focus {
-  box-shadow: 0 5.44px 5.44px rgba(0, 0, 0, 0.03);
+  border-color: var(--focus-border-color);
 }
 .form-input-review::placeholder,
 .form-textarea-review::placeholder {
@@ -121,6 +125,7 @@
   resize: none;
 }
 .modal-review-btn {
+  outline: none;
   border: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
