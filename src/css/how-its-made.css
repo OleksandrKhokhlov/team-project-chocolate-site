@@ -17,6 +17,9 @@
   color: var(--pr-text-color);
   margin-bottom: 20px;
 }
+.how-its-made-img-block{
+  position: relative;
+}
 .how-its-made-item {
   letter-spacing: -0.02em;
   color: var(--pr-text-color);
