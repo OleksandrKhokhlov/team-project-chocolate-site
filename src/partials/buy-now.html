@@ -121,12 +121,13 @@
       </ul>
 
       <div class="buy-now__user-inform">
-        <label for="user-name" class="buy-now__modal-form-field">
+        <label class="buy-now__modal-form-field" for="user-name">
           <span class="buy-now__modal-form-wrapper">Personal information</span>
           <span class="buy-now__modal-form-desc">
             <input
               type="text"
               name="user-name"
+              id="user-name"
               class="buy-now__modal-form-input buy-now__name"
               placeholder="Name"
               required
@@ -136,11 +137,12 @@
           </span>
         </label>
 
-        <label for="user-surname" class="buy-now__modal-form-field">
+        <label class="buy-now__modal-form-field" for="user-surname">
           <span class="buy-now__modal-form-desc">
             <input
               type="text"
               name="user-surname"
+              id="user-surname"
               class="buy-now__modal-form-input"
               placeholder="Surname"
               required
@@ -151,12 +153,13 @@
         </label>
       </div>
 
-      <label for="user-email" class="buy-now__modal-form-field">
+      <label class="buy-now__modal-form-field" for="user-email">
         <span class="buy-now__modal-form-wrapper">Email</span>
         <span class="buy-now__modal-form-desc">
           <input
             type="email"
             name="user-email"
+            id="user-email"
             class="buy-now__modal-form-input"
             placeholder="Enter your email"
             aria-label="E-mail"
@@ -164,7 +167,7 @@
           />
         </span>
       </label>
-      <label for="user-phone" class="buy-now__modal-form-field">
+      <label class="buy-now__modal-form-field" for="user-phone">
         <span class="buy-now__modal-form-wrapper">Phone number</span>
         <span class="buy-now__modal-form-desc"></span>
         <div class="buy-now__modal-wrap-desk">
@@ -174,6 +177,7 @@
             class="buy-now__modal-form-input modal-phone buy-now__form-modal"
             placeholder="Phone number"
             required
+            id="user-phone"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
             title="xxx-xxx-xx-xx"
             minlength="2"
@@ -186,12 +190,13 @@
           </div>
         </div>
       </label>
-      <label for="text" class="buy-now__modal-form-field">
+      <label class="buy-now__modal-form-field" for="text">
         <span class="buy-now__modal-form-wrapper">Card number</span>
         <span class="buy-now__modal-form-desc">
           <input
             type="text"
             name="text"
+            id="text"
             class="buy-now__modal-form-input"
             placeholder="Enter card"
             required
@@ -204,12 +209,13 @@
           </svg>
         </span>
       </label>
-      <label for="user-message" class="buy-now__modal-form-field">
+      <label class="buy-now__modal-form-field" for="user-message">
         <span class="buy-now__modal-form-wrapper">Comment</span>
         <span class="buy-now__modal-form-desc">
           <textarea
-            name="user-message"
             class="buy-now__modal-form-input buy-now__message"
+            name="user-message"
+            id="user-message"
             placeholder="Enter text"
           ></textarea>
         </span>
