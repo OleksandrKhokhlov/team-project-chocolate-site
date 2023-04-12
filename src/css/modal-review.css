@@ -29,7 +29,10 @@
   transform: translate(-50%, -50%) scale(0);
 }
 .review-close-btn {
-   padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
   width: 28px;
   height: 28px;
   border-radius: 50%;

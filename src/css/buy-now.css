@@ -42,7 +42,10 @@
 
   .buy-now__close-btn {
     position: absolute;
-    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
     top: 14px;
     right: 14px;
     width: 28px;
