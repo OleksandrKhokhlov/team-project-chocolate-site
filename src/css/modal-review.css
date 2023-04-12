@@ -36,7 +36,7 @@
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  fill: var(--pr-title-color);
+  fill: var(--pr-text-color);
   position: absolute;
   outline: none;
   top: 14px;
