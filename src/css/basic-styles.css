@@ -43,6 +43,12 @@ img {
   overflow: hidden;
 }
 
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 :root {
   --sec-font: 'Roboto', sans-serif;
   /* --Accent-- */
