@@ -102,7 +102,9 @@
 .twit-svg:is(:hover, :focus) {
   stroke: var(--accent-color);
 }
-
+.footer-link-svg {
+  display: block;
+}
 @media screen and (min-width: 375px) {
   .footer-container {
     max-width: 375px;
