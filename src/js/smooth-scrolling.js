@@ -1,4 +1,4 @@
-const anchors = document.querySelectorAll('[href*="#"] ');
+const anchors = document.querySelectorAll('.smooth');
 
 anchors.forEach(anchor => {
   anchor.addEventListener('click', event => {
